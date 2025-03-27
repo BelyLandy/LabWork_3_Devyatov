@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>3/28/2025 - 2:06:22 AM</Generatedon>
+    <Parser>MultiReportParser (4x OpenCoverParser)</Parser>
+    <Assemblies>2</Assemblies>
+    <Classes>5</Classes>
+    <Files>5</Files>
+    <Coveredlines>119</Coveredlines>
+    <Uncoveredlines>8</Uncoveredlines>
+    <Coverablelines>127</Coverablelines>
+    <Totallines>329</Totallines>
+    <Linecoverage>93.7</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+    <Coveredmethods>24</Coveredmethods>
+    <Totalmethods>25</Totalmethods>
+    <Methodcoverage>96</Methodcoverage>
+  </Summary>
+  <Coverage>
+    <Assembly name="AdditionalScripts" classes="2" coverage="76.1" coveredlines="16" coverablelines="21" totallines="58" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="6" totalmethods="7" methodcoverage="85.7">
+      <Class name="PlayerInputData" coverage="100" coveredlines="6" coverablelines="6" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+      <Class name="PlayerInputHandler" coverage="66.6" coveredlines="10" coverablelines="15" totallines="40" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="4" methodcoverage="75" />
+    </Assembly>
+    <Assembly name="MainScripts" classes="3" coverage="97.1" coveredlines="103" coverablelines="106" totallines="271" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="18" totalmethods="18" methodcoverage="100">
+      <Class name="Cell" coverage="100" coveredlines="23" coverablelines="23" totallines="86" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="7" totalmethods="7" methodcoverage="100" />
+      <Class name="CellView" coverage="100" coveredlines="28" coverablelines="28" totallines="83" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="6" totalmethods="6" methodcoverage="100" />
+      <Class name="GameField" coverage="94.5" coveredlines="52" coverablelines="55" totallines="102" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>

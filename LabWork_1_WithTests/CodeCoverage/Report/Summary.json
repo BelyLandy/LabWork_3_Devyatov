@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "generatedon": "2025-03-27T23:06:22Z",
+    "parser": "MultiReportParser (4x OpenCoverParser)",
+    "assemblies": 2,
+    "classes": 5,
+    "files": 5,
+    "coveredlines": 119,
+    "uncoveredlines": 8,
+    "coverablelines": 127,
+    "totallines": 329,
+    "linecoverage": 93.7,
+    "coveredbranches": 0,
+    "totalbranches": 0,
+    "coveredmethods": 24,
+    "totalmethods": 25,
+    "methodcoverage": 96
+ },
+  "coverage": {
+    "assemblies": [
+      { "name": "AdditionalScripts", "classes": 2, "coverage": 76.1, "coveredlines": 16, "coverablelines": 21, "totallines": 58, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 85.7, "coveredmethods": 6, "totalmethods": 7, "classesinassembly": [
+        { "name": "PlayerInputData", "coverage": 100, "coveredlines": 6, "coverablelines": 6, "totallines": 18, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 3, "totalmethods": 3 },
+        { "name": "PlayerInputHandler", "coverage": 66.6, "coveredlines": 10, "coverablelines": 15, "totallines": 40, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 75, "coveredmethods": 3, "totalmethods": 4 } ] },
+      { "name": "MainScripts", "classes": 3, "coverage": 97.1, "coveredlines": 103, "coverablelines": 106, "totallines": 271, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 18, "totalmethods": 18, "classesinassembly": [
+        { "name": "Cell", "coverage": 100, "coveredlines": 23, "coverablelines": 23, "totallines": 86, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 7, "totalmethods": 7 },
+        { "name": "CellView", "coverage": 100, "coveredlines": 28, "coverablelines": 28, "totallines": 83, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 6, "totalmethods": 6 },
+        { "name": "GameField", "coverage": 94.5, "coveredlines": 52, "coverablelines": 55, "totallines": 102, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 5, "totalmethods": 5 } ] } ]
+  }
+}
