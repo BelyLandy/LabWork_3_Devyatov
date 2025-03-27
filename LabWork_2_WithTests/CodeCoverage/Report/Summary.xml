@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>3/27/2025 - 11:00:23 PM</Generatedon>
+    <Parser>MultiReportParser (4x OpenCoverParser)</Parser>
+    <Assemblies>2</Assemblies>
+    <Classes>11</Classes>
+    <Files>11</Files>
+    <Coveredlines>584</Coveredlines>
+    <Uncoveredlines>51</Uncoveredlines>
+    <Coverablelines>635</Coverablelines>
+    <Totallines>1439</Totallines>
+    <Linecoverage>91.9</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+    <Coveredmethods>77</Coveredmethods>
+    <Totalmethods>83</Totalmethods>
+    <Methodcoverage>92.7</Methodcoverage>
+  </Summary>
+  <Coverage>
+    <Assembly name="GeneralScripts" classes="3" coverage="59" coveredlines="13" coverablelines="22" totallines="62" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="6" methodcoverage="50">
+      <Class name="CustomCursor" coverage="100" coveredlines="13" coverablelines="13" totallines="31" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+      <Class name="Loader" coverage="0" coveredlines="0" coverablelines="6" totallines="15" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
+      <Class name="SceneLoader" coverage="0" coveredlines="0" coverablelines="3" totallines="16" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+    </Assembly>
+    <Assembly name="MainScripts" classes="8" coverage="93.1" coveredlines="571" coverablelines="613" totallines="1377" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="74" totalmethods="77" methodcoverage="96.1">
+      <Class name="Cell" coverage="100" coveredlines="26" coverablelines="26" totallines="82" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="10" totalmethods="10" methodcoverage="100" />
+      <Class name="CellAnimations" coverage="100" coveredlines="77" coverablelines="77" totallines="153" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+      <Class name="CellView" coverage="100" coveredlines="38" coverablelines="38" totallines="99" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />
+      <Class name="GameField" coverage="91.9" coveredlines="227" coverablelines="247" totallines="447" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="14" totalmethods="15" methodcoverage="93.3" />
+      <Class name="PlayerInput" coverage="95.7" coveredlines="114" coverablelines="119" totallines="407" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="33" totalmethods="35" methodcoverage="94.2" />
+      <Class name="PlayerInputHandler" coverage="70.6" coveredlines="41" coverablelines="58" totallines="88" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />
+      <Class name="SaveLoadManager" coverage="100" coveredlines="36" coverablelines="36" totallines="66" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="UIManager" coverage="100" coveredlines="12" coverablelines="12" totallines="35" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>
