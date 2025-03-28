@@ -4,7 +4,9 @@
 
 ---
 
-# Тесты для Лабораторной работы 1. Выводы всех тестов реализованы с помощью Fluent Assertions.
+## Тесты для Лабораторной работы 1. 
+
+### Выводы всех тестов реализованы с помощью FluentAssertions.dll.
 
 # LabWork_1_index.htm
 ![image](https://github.com/user-attachments/assets/ed3b0f0a-a0ce-48a3-b4fc-c186caffdafc)
@@ -18,13 +20,9 @@
 ![image](https://github.com/user-attachments/assets/08538264-c7c4-4d4e-8312-066cd28db013)
 
 
-# Тесты для Лабораторная работа 2.
+## Тесты для Лабораторная работа 2.
 
---
-
-FluentAssertions.dll я использовал только в нескольких скриптах LoaderTests.cs и SceneLoaderTests.cs.
-
---
+### FluentAssertions.dll я использовал только в нескольких скриптах LoaderTests.cs и SceneLoaderTests.cs.
 
 # LabWork_2_index.htm
 ![image](https://github.com/user-attachments/assets/99c3b365-eaee-4370-9440-b1a6f7e907d7)
