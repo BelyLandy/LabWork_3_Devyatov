@@ -1,7 +1,7 @@
 {
   "summary": {
-    "generatedon": "2025-03-27T23:06:22Z",
-    "parser": "MultiReportParser (4x OpenCoverParser)",
+    "generatedon": "2025-03-28T00:24:03Z",
+    "parser": "MultiReportParser (5x OpenCoverParser)",
     "assemblies": 2,
     "classes": 5,
     "files": 5,

@@ -11,7 +11,6 @@ public class PlayerInputHandlerTests
     [SetUp]
     public void SetUp()
     {
-        // Создаем временный GameObject с компонентом PlayerInputHandler
         _gameObject = new GameObject();
         _inputHandler = _gameObject.AddComponent<PlayerInputHandler>();
     }
@@ -22,10 +21,12 @@ public class PlayerInputHandlerTests
         UnityEngine.Object.DestroyImmediate(_gameObject);
     }
 
+    /// <summary>
+    /// Проверяет, что публичный метод TriggerInputEvent корректно вызывает событие ввода
+    /// </summary>
     [Test]
     public void TriggerInputEvent_PublicMethod_ShouldInvokeOnInputChangedWithCorrectData()
     {
-        // Arrange
         PlayerInputData? receivedData = null;
         _inputHandler.OnInputChanged += data => receivedData = data;
 
@@ -33,10 +34,8 @@ public class PlayerInputHandlerTests
         var expectedFullscreen = true;
         var testData = new PlayerInputData(expectedMovement, expectedFullscreen);
 
-        // Act
         _inputHandler.TriggerInputEvent(testData);
 
-        // Assert
         receivedData.Should().NotBeNull("событие должно быть вызвано");
         receivedData.Value.MovementInput.Should()
             .Be(expectedMovement, "движение должно совпадать с ожидаемым значением");
@@ -44,23 +43,22 @@ public class PlayerInputHandlerTests
             .Be(expectedFullscreen, "флаг fullscreen должен быть равен true");
     }
 
+    /// <summary>
+    /// Проверяет работу приватного метода переключения полноэкранного режима
+    /// </summary>
     [Test]
     public void OnFullscreenOrWindowed_PrivateMethod_ShouldTriggerEventWithFullscreenFlagTrue()
     {
-        // Arrange
         PlayerInputData? receivedData = null;
         _inputHandler.OnInputChanged += data => receivedData = data;
 
-        // Получаем приватный метод OnFullscreenOrWindowed через рефлексию
         var method =
             typeof(PlayerInputHandler).GetMethod("OnFullscreenOrWindowed",
                 BindingFlags.Instance | BindingFlags.NonPublic);
         method.Should().NotBeNull("метод OnFullscreenOrWindowed должен быть доступен через рефлексию");
 
-        // Act
         method.Invoke(_inputHandler, null);
 
-        // Assert
         receivedData.Should().NotBeNull("событие должно быть вызвано при переключении режима fullscreen/windowed");
         receivedData.Value.IsFullscreenedOrWindowed.Should()
             .BeTrue("флаг fullscreen должен быть установлен в true при вызове метода");
